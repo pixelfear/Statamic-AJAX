@@ -13,6 +13,7 @@ Show wrapping code if it's a regular request.
     {{ unless {ajax} }}
     </body>
     </html>
+    {{ endif }}
 
 ### In your template...
 Output JSON for AJAX requests and HTML for normal requests.  
