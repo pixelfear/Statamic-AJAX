@@ -16,7 +16,7 @@ Show wrapping code if it's a regular request.
 
 ### In your template...
 Output JSON for AJAX requests and HTML for normal requests.  
-There's also a {{ ajax:json_encode }} tag pair that will take care of line breaks, escaping quotes, etc.
+There's also an `{{ ajax:json_encode }}` tag pair that will take care of line breaks, escaping quotes, etc.
 
     {{ if {ajax} }}
       [
